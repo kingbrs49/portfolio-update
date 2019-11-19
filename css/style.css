@@ -1,0 +1,79 @@
+h1 {
+    text-shadow: 2px 2px #000000 
+}
+
+h2 {
+    text-shadow: 2px 2px #000000
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: #AA0000;
+    color: #ffffff;
+}
+
+img {
+    image-orientation: portrait;
+    height: 525px;
+    width: auto;
+}
+
+img.float-left {
+    height: 350px;
+    width: auto;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img.float-right {
+    height: 350px;
+    width: auto;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-body {
+    background-color: #AA0000;
+    color: #ffffff;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.work {
+    position: relative;
+    display: inline-block;
+}
+
+.work .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 70%; 
+    background: #AA0000;
+    color: #ffffff;
+    width: 90%; 
+}
+
+.navbar {
+    position: sticky;
+}
+
+a {
+    color: #D4AF37;
+}
+
+/* .navbar-brand, .nav-item {
+    color: silver;
+}
+
+.navbar-default {
+    background-color: #AA0000;
+    border-color: #E7E7E7;
+} */
